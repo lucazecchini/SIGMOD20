@@ -12,16 +12,20 @@ The dataset is part of Alaska benchmark (see the repository [2] and the related 
 ---
 
 REQUIREMENTS:
+
 The code is written in Python and needs to import pandas, json, os, re and time packages.
 
 INPUT:
+
 The code takes in input just the json files contained in the camera dataset (available as the dataset "X" on the contest website).
 A folder "Dataset" must be created here and it should directly contain the main folder of the camera dataset (namely, "2013_camera_specs") with all its content (i.e., the folders corresponding to the sources, containing the respective json files).
 
 OUTPUT:
+
 The code generates the file "matches_from_solved.csv", that is the csv file containing the matches and used for the submissions.
 
 EXECUTION:
+
 Just execute "code.py" file.
 Once satisfied imports, it will read all specification json files, assign them brand and model and create the output files.
 
