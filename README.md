@@ -10,17 +10,17 @@ The task consisted in performing entity matching on camera records extracted fro
 
 ---
 
-REQUIREMENTS
+REQUIREMENTS:
 The code needs to import pandas, json, os, re and time packages.
 
-INPUT
+INPUT:
 The code takes in input just the json files contained in dataset X (available on contest website).
 The empty folder Dataset/2013_camera_specs/ must be filled with the source folders of this dataset (buy.net, cammarkt.com, www.alibaba.com and so on) containing the respective json files.
 
-OUTPUT
+OUTPUT:
 The code generates the file matches_from_solved.csv, that is the csv C containing the matches and used for the submissions.
 
-EXECUTION
+EXECUTION:
 Just execute code.py file.
 Once satisfied imports, it will read all the specifications json files, assign them brand and model and create the output files.
 
