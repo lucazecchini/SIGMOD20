@@ -32,5 +32,7 @@ Once satisfied imports, it will read all specification json files, assign them b
 ---
 
 [1] SIGMOD 2020 Programming Contest Website: https://www.inf.uniroma3.it/db/sigmod2020contest
+
 [2] Alaska Benchmark GitHub Repository: https://github.com/merialdo/research.alaska
+
 [3] Valter Crescenzi, Andrea De Angelis, Donatella Firmani, Maurizio Mazzei, Paolo Merialdo, Federico Piai, Divesh Srivastava: "Alaska: A Flexible Benchmark for Data Integration Tasks". CoRR abs/2101.11259 (2021). https://arxiv.org/abs/2101.11259
